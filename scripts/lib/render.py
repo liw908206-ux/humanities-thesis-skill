@@ -6,8 +6,8 @@
 from __future__ import annotations
 import json
 
-from schema import Paper
-from citation import auto_cite
+from lib.schema import Paper
+from lib.citation import auto_cite
 
 
 def render_text(
